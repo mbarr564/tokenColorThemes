@@ -1,5 +1,5 @@
 # tokenColorThemes
-PowerShell token color customization themes for VSCode and ISE.
+PowerShell token color customization themes for VSCode and the old ISE.
 
 VSCode: drop settings.json here: %APPDATA%\Code\User\settings.json
 
