@@ -1,0 +1,82 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorCustomizations": {
+        "editor.background": "#012456",
+        "editor.foreground": "#f5f5f5"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Solarized Dark]": {
+            "comments": "#7afb7a",
+            "variables": "#ffb40f",
+            "keywords": "#ff6347",
+            "strings": "#f5f5f5",
+            "functions": "#6495ed",
+            "numbers": "#ffe4c4",
+            "types": "#8fbc8f",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.other.array.begin.powershell",
+                        "punctuation.section.group.begin.powershell",
+                        "punctuation.section.group.end.powershell",
+                        "punctuation.section.embedded.substatement.begin.powershell",
+                        "keyword.operator.logical.powershell",
+                        "punctuation.section.bracket.begin.powershell",
+                        "punctuation.section.bracket.end.powershell",
+                        "punctuation.section.braces.begin.powershell",
+                        "punctuation.section.braces.end.powershell",
+                        "variable.other.member.powershell",
+                        "interpolated.complex.source.powershell",
+                        "storage.modifier.powershell"
+                    ],
+                    "settings": {"foreground": "#f5f5f5"}
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite.powershell",
+                        "punctuation.definition.variable.powershell",
+                        "constant.language.powershell",
+                        "support.constant.variable.powershell",
+                        "support.variable.automatic.powershell"
+                    ],
+                    "settings": {"foreground": "#ffb40f"}
+                },
+                {
+                    "scope": [
+                        "meta.scriptblock.powershell",
+                        "meta.group.simple.subexpression.powershell"
+                    ],
+                    "settings": {"foreground": "#ffe4b5"}
+                },
+                {
+                    "scope": [
+                        "storage.type.powershell"
+                    ],
+                    "settings": {"foreground": "#8fbc8f"}
+                },
+                {
+                    "scope": [
+                        "keyword.operator.documentation.powershell"
+                    ],
+                    "settings": {"foreground": "#7afb7a"}
+                },
+                {
+                    "scope": [
+                        "keyword.operator.assignment.powershell",
+                        "keyword.operator.other.powershell",
+                        "keyword.other.powershell"
+                    ],
+                    "settings": {"foreground": "#d3d3d3"}
+                },
+                {
+                    "scope": [
+                        "keyword.operator.string-format.powershell",
+                        "keyword.operator.logical.powershell",
+                        "keyword.operator.comparison.powershell"
+                    ],
+                    "settings": {"foreground": "#ff6347"}
+                }
+            ]
+        }
+    }
+}
